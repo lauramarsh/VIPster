@@ -87,6 +87,10 @@
   max-height: 150px;
 }
 
+.listings > table > tbody > tr > td > a:hover {
+  max-height: 250px;
+}
+
 .nav-left {
   text-align: left;
 }
