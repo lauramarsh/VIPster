@@ -1,0 +1,111 @@
+.background {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/vipstar.jpg");
+
+}
+
+.body {
+  background-color: black;
+  color: white;
+}
+
+.categories {
+  height: 100%;
+  width: 160px;
+  top: 0;
+  left: 0;
+  background-color: #111111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.categories-return {
+  text-indent: 0px;
+}
+
+.categories-return > a {
+  margin: auto;
+}
+
+.concerts {
+  display: inline-flex;
+  text-indent: 20px;
+}
+
+.concerts-form {
+  text-align: right;
+}
+
+.concerts-info {
+  margin: 20px;
+  width: 350px;
+}
+
+.concerts-info > img {
+  max-height: 225px;
+}
+
+.concerts-info_details {
+  position: absolute;
+}
+
+.concerts-info_details > h3, h5 {
+  text-align: right;
+}
+
+.concerts-info_lineup > h4 {
+  text-align: center;
+}
+
+.concerts-info_lineup > h5 {
+  color: #ff2b2b;
+}
+
+.header {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  background-color: #363636;
+  color:white;
+}
+
+.header > ul > li > a {
+  color: white;
+}
+
+.header > ul > li > a:hover {
+  color: black;
+}
+
+.listings > table > tbody > tr > td {
+  text-indent: 0px;
+}
+
+.listings > table > tbody > tr > td > a {
+  max-height: 150px;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.nav-right {
+  position: absolute;
+  right: 0px;
+}
+
+.welcome {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.welcome > h1 {
+  margin-top: 0px;
+  padding-top: 30%;
+}
+
+.welcome > a {
+  margin-top: 15px;
+}
