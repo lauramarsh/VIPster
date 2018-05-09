@@ -6,9 +6,9 @@
     <!-- The above 3 meta tags came directly from the bootstrap website -->
     <title>Vipster: Purchase VIP tickets</title>
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   </head>
 
   <body class="body">
