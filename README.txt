@@ -1,25 +1,25 @@
-Here I'll list where you can find satisfactory features described in Project 1.
 
-1. Can be found if you click the "About" tab in the nav bar.
 
-2. Can be found if you hit the "Shop VIP Tickets" button on the front page, or
-  the "concerts" tab in the nav bar.
+URL ADDRESS: http://centaurus-2.ics.uci.edu:7340/project2/VIPster/index.html
 
-3. Found in the same space as above.
+Here I'll list where you can find satisfactory features described in Project 2.
 
-4. Found in the same space as above.
+1.
+  a) Mysql database located at mysqladmin.  Used to generate dynamic content via concerts.php, and concertPage.php.
+  b) Queries found on said pages.
 
-5. Found if you click on any image in the Concerts page.  You will be taken to
-  that image's detail page where you can purchase tickets using a form.
+2.
+  a) Product ordering forms found on each individual generated concertPage.php
+  b) Validation found on all form inputs if a ridiculous submission is made.
+      For example, letters for a phone number, or digits for a name.
+      If such info is submitted, an alert appears with further instructions.
+  c) If valid information is inputted, data is stored in the 'sales' table of my database.
 
-6. Found on the detail pages mentioned above on the right hand side.
+3.
+  a) After hitting the 'submit' button on each detail page successfully ,
+      the user is redirected to an order confirmation page which is displayed with the details of said order.
 
-7. I was unable to do this.
-
-8. I was unable to do this.
-
-9. This is found throughout the site, and in the CSS folder in the web files.  I
-  use a mix of BootStrap and custom CSS.
-
-10. This is found on the concerts tab when you hover over an image.  Also found in
-  style.css in the css folder.
+4.
+  a) 1 ajax feature occurs in the forms located on each individual concert detail page.
+      Specifically, the 'email' input will show a selection of email domains the user can choose from.
+  b) I did not implement a second ajax feature.

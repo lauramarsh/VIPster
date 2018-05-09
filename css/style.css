@@ -55,6 +55,10 @@
   text-align: right;
 }
 
+.concerts-info_form {
+  color: black;
+}
+
 .concerts-info_lineup > h4 {
   text-align: center;
 }
